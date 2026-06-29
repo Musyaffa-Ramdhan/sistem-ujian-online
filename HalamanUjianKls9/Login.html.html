@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-image: url(gambar.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center ;
+        }
+        form{
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            opacity: 0.7;
+        }
+        .bungkus1{
+            display: flex;
+            flex-direction: row;
+        }
+        h3{
+            font-weight: 300;
+            margin-left: 10px;
+        }
+        input{
+            width: 90%;
+            padding: 5%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        button{
+            width: 100%;
+            padding: 5%;
+            border-radius:10px ;
+            margin-top: 10px;
+            background-color: rgb(6, 163, 247);
+            color: white;
+        }
+        button:hover{
+            background-color: blue ;
+            color: silver;
+        }
+    </style>
+</head>
+<body>
+    <div class="lembaran">
+        <form action="">
+            <div class="bungkus1">
+                <img src="favicon_io (2)/android-chrome-192x192.png" alt="" srcset="" width="70px" height="50px">
+                <h3>SiTest Ujian Online</h3>
+           </div>
+            <label for="nama">Nama Lengkap anda:</label>
+            <br>
+            <input type="text" name="nama" id="nama" placeholder="Nama Lengkap">
+            <br>
+            <label for="Nik">Nik anda:</label>
+            <br>
+            <input type="number" name="Nik" id="Nik" placeholder="Nik" required="">
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

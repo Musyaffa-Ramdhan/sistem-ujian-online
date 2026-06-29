@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dashboard Siswa | Ujian Online SMP Harapan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <style>
+        body{
+            background-color: #f0f0f0;
+        }
+        .bagianawal{
+            display: flex;
+            background-color: royalblue;
+            justify-content: space-between;
+            height: 80px;
+            align-items: center;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        .namaMapel,.waktu > h4{
+            font-weight: 600;
+            color: white;
+        }
+        .isi{
+            display: flex;
+            margin-top: 30px;
+        }
+        .isi > .bagiansoal{
+            margin-right: 20px;
+            margin-left: 20px;
+            height: 400px;
+            padding: 20px;
+            background-color: white;
+        }
+        .bagiansoal > .tombol{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            height: 45px;
+        }
+        .tombol > button{
+            padding: 10px;
+            border-style: none;
+            color: white;
+            font-weight:600 ;
+        }
+        .isi > .bagiansamping{
+            margin-right: 20px;
+            margin-left: 20px;
+            width: 600px;
+            height: 470px;
+            padding: 20px;
+            background-color: white;
+        }
+        .bagiansamping > .nomorsoal{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+        } 
+        .nomorsoal > div{
+            padding: 15px;
+            margin: 10px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            width: 40px;
+        }
+        .keterangan > .benar{
+            display: flex;
+            margin: 10px;
+        }
+        .keterangan > .belumdijawab{
+            display: flex;
+            margin: 10px;
+        }
+        .benar > .petunjuk{
+            padding: 6px;
+            width: 40px;
+            height: 30px;
+            border: 1px solid black;
+            background-color: royalblue;
+        }
+        .belumdijawab > .petunjuk{
+            padding: 6px;
+            width: 40px;
+            height: 30px;
+            border: 1px solid black;
+            background-color: #f0f0f0;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="bagianawal ">
+        <div class="namaMapel">
+            <h4>Ujian Mata Pelajaran: Matematika</h4>
+        </div>
+        <div class="waktu">
+            <h4>Waktu: 59:30</h4>
+        </div>
+    </div>
+
+    <div class="isi">
+        <div class="bagiansoal rounded-3">
+            <h3>Soal 1 Dari 10</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eveniet dolores doloribus, recusandae consequuntur delectus? Quas, fuga officiis illo doloribus tempora eveniet ullam dolor ad quia, obcaecati molestias nihil ducimus?</p>
+            <input type="radio" name="soal" id="jawabanPertama">
+            <label for="">A. Jawaban Pertama</label>
+            <br>
+            <input type="radio" name="soal" id="jawabanDua">
+            <label for="">B. Jawaban Kedua</label>
+            <br>
+            <input type="radio" name="soal" id="jawabanTiga">
+            <label for="">C. Jawaban Ketiga</label>
+            <br>
+            <input type="radio" name="soal" id="jawabanEmpat">
+            <label for="">D. Jawaban Keempat</label>
+            <br>
+            <div class="tombol">
+                <button class="btn btn-primary rounded-5">soal sebelumnya</button>
+                <button class="btn btn-primary rounded-5">soal selanjutnya</button>
+            </div>
+        </div>
+
+        <div class="bagiansamping rounded-3">
+            <h3>Navigasi Soal</h3>
+            <hr>
+            <div class="nomorsoal">
+                <div class="satu">1</div>
+                <div class="dua">2</div>
+                <div class="tiga">3</div>
+                <div class="empat">4</div>
+                <div class="lima">5</div>
+                <div class="enam">6</div>
+                <div class="tujuh">7</div>
+                <div class="delapan">8</div>
+                <div class="sembilan">9</div>
+                <div class="sepuluh">10</div>
+            </div>
+            <hr>
+            <div class="keterangan">
+                <div class="benar">
+                    <div class="petunjuk rounded-3"></div>
+                    <div class="petunjuk2">= Ini adalah tanda jika jawaban sudah dijawab</div>
+                </div>
+                <div class="belumdijawab">
+                    <div class="petunjuk rounded-3"></div>
+                    <div class="petunjuk2">= Ini adalah tanda jika jawaban belum dijawab</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+  </body>
+</html>
+

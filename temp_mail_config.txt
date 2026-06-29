@@ -1,0 +1,8 @@
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=donir4981@gmail.com
+MAIL_PASSWORD=[Ganti dengan App Password Gmail Anda]
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=donir4981@gmail.com
+MAIL_FROM_NAME="Ujian Online SMP"
