@@ -2,6 +2,24 @@
 
 Aplikasi web untuk pelaksanaan ujian online tingkat SMP dengan tiga peran pengguna (Admin, Guru, Siswa). Dibangun menggunakan Laravel 10 dan panel admin Filament 3. Proyek mata kuliah Pemrograman Web.
 
+## 📸 Tampilan Aplikasi
+
+### Halaman Siswa
+
+| Beranda | Login Siswa | Dashboard |
+|:---:|:---:|:---:|
+| ![Beranda](docs/01-beranda.png) | ![Login Siswa](docs/02-login-siswa.png) | ![Dashboard Siswa](docs/03-dashboard-siswa.png) |
+
+| Daftar Ujian | Hasil Ujian | Pengumuman |
+|:---:|:---:|:---:|
+| ![Daftar Ujian](docs/04-daftar-ujian.png) | ![Hasil Ujian](docs/05-hasil-ujian.png) | ![Pengumuman](docs/06-pengumuman.png) |
+
+### Login Guru & Panel Admin
+
+| Login Guru | Panel Admin (Filament) |
+|:---:|:---:|
+| ![Login Guru](docs/07-login-guru.png) | ![Panel Admin](docs/08-panel-admin.png) |
+
 ## Fitur Utama
 
 **Siswa**
